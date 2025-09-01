@@ -1,0 +1,43 @@
+name: Scrape Pelni Destinations (with Bun)
+
+on:
+  workflow_dispatch:
+    # Mengizinkan trigger manual dari tab 'Actions' di GitHub
+  schedule:
+    # Menjalankan workflow setiap hari Minggu pada pukul 00:00 UTC
+    - cron: '0 0 * * 0'
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Langkah 1: Checkout kode repositori
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      # Langkah 2: Menginstal Bun
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      # Langkah 3: Menginstal dependensi dengan Bun
+      - name: Install dependencies
+        run: bun install
+        
+      # Langkah 4: Menjalankan scrapper dan mengganti nama file
+      - name: Run scrapper and rename output
+        run: |
+          bun run scrape.ts
+          mv pelni-destinations.json pelni_ports.json
+          
+      # Langkah 5: Commit dan push file hasil scrapper
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat: Update Pelni port data"
+          file_pattern: "pelni_ports.json"
+          commit_user_name: Agus Ibrahim
+          commit_user_email: pymobile123@gmail.com
+          commit_author: Agus Ibrahim <pymobile123@gmail.com>

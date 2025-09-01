@@ -1,0 +1,17 @@
+{
+  "name": "pelniport",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "@types/puppeteer": "^7.0.4",
+    "puppeteer": "^24.17.1"
+  }
+}
