@@ -1,4 +1,4 @@
-name: Scrape Pelni Destinations (with Bun)
+name: Scrape Pelni Destinations
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * 0'
 
 jobs:
-  scrape-and-commit:
+  run-scrapper:
     runs-on: macos-latest
     
     steps:
