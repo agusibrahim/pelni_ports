@@ -1,0 +1,751 @@
+[
+  {
+    "name": "MALAHAYATI",
+    "code": "MLH",
+    "city": "ACEH BESAR, ACEH",
+    "id": 102,
+    "dest": "256,431,266,144"
+  },
+  {
+    "name": "KALABAHI",
+    "code": "KBH",
+    "city": "ALOR, NUSA TENGGARA TIMUR",
+    "id": 694,
+    "dest": "694,946,948,921,655,613,684,949,944,747,681,688,893,950,662,979,983,696,683,971,673,685,563,773,923"
+  },
+  {
+    "name": "AMBON",
+    "code": "AMQ",
+    "city": "AMBON, MALUKU",
+    "id": 946,
+    "dest": "694,946,948,921,973,655,835,951,929,613,976,777,925,431,974,949,977,944,928,975,681,688,893,947,950,662,972,979,983,982,494,955,683,971,563,981,942,923"
+  },
+  {
+    "name": "AGATS",
+    "code": "AGS",
+    "city": "ASMAT, PAPUA SELATAN",
+    "id": 948,
+    "dest": "694,946,948,921,655,835,929,613,976,949,977,944,681,688,893,950,662,979,983,683,971,563,942,889,923"
+  },
+  {
+    "name": "SEMAYANG",
+    "code": "BPN",
+    "city": "BALIKPAPAN, KALIMANTAN TIMUR",
+    "id": 803,
+    "dest": "803,921,687,681,688,893,809,863,892,683,808"
+  },
+  {
+    "name": "PANJANG",
+    "code": "PNJ",
+    "city": "BANDAR LAMPUNG, LAMPUNG",
+    "id": 395,
+    "dest": "395,431,433"
+  },
+  {
+    "name": "LUWUK",
+    "code": "LUW",
+    "city": "BANGGAI, SULAWESI TENGAH",
+    "id": 868,
+    "dest": "868,921,655,835,613,841,922,106,893,662,924"
+  },
+  {
+    "name": "BANGGAI",
+    "code": "BGG",
+    "city": "BANGGAI KEPULAUAN, SULAWESI TENGAH",
+    "id": 908,
+    "dest": "908,921,973,835,925,974,893,972,982,971,563,942"
+  },
+  {
+    "name": "BELINYU",
+    "code": "BLU",
+    "city": "BANGKA, KEPULAUAN BANGKA BELITUNG",
+    "id": 322,
+    "dest": "322,431,269,252,725,255,246,714,563,251"
+  },
+  {
+    "name": "SADAI",
+    "code": "SDI",
+    "city": "BANGKA SELATAN, KEPULAUAN BANGKA BELITUNG",
+    "id": 338,
+    "dest": ""
+  },
+  {
+    "name": "KOTABARU",
+    "code": "KTB",
+    "city": "BARU, KALIMANTAN SELATAN",
+    "id": 996,
+    "dest": ""
+  },
+  {
+    "name": "BATAM/BATU AMPAR",
+    "code": "BUR",
+    "city": "BATAM, KEPULAUAN RIAU",
+    "id": 256,
+    "dest": "256,431,266,144"
+  },
+  {
+    "name": "BAU",
+    "code": "BBM",
+    "city": "BAU-BAU, SULAWESI TENGGARA",
+    "id": 921,
+    "dest": "694,946,948,803,868,908,921,973,655,835,951,929,613,976,687,841,777,925,431,974,949,977,922,944,975,681,688,106,893,947,950,662,972,979,983,924,982,809,863,892,494,683,971,563,251,808,981,942,923"
+  },
+  {
+    "name": "TANJUNG PANDAN",
+    "code": "TJQ",
+    "city": "BELITUNG, KEPULAUAN BANGKA BELITUNG",
+    "id": 336,
+    "dest": "336,431,747,714,494,563,773"
+  },
+  {
+    "name": "BIAK",
+    "code": "BIK",
+    "city": "BIAK NUMFOR, PAPUA",
+    "id": 973,
+    "dest": "946,908,921,973,835,925,431,974,975,893,972,982,971,563,942"
+  },
+  {
+    "name": "BIMA",
+    "code": "BMU",
+    "city": "BIMA, NUSA TENGGARA BARAT",
+    "id": 655,
+    "dest": "694,946,948,868,921,655,835,898,929,613,684,841,949,922,944,747,681,106,651,891,893,950,662,979,983,924,892,696,673,685,563,773,923"
+  },
+  {
+    "name": "BITUNG",
+    "code": "BIT",
+    "city": "BITUNG, SULAWESI UTARA",
+    "id": 835,
+    "dest": "946,948,868,908,921,973,655,835,951,613,976,841,777,925,431,974,949,977,922,944,928,106,893,947,662,972,979,983,924,982,494,955,971,563,981,942,889"
+  },
+  {
+    "name": "LHOK TUAN",
+    "code": "LTU",
+    "city": "BONTANG, KALIMANTAN TIMUR",
+    "id": 898,
+    "dest": "655,898,613,684,681,651,891,893,662,892,685,563,773"
+  },
+  {
+    "name": "NAMLEA",
+    "code": "NAM",
+    "city": "BURU, MALUKU",
+    "id": 951,
+    "dest": "946,921,835,951,976,777,925,431,974,928,893,947,972,982,494,955,971,563,981,942"
+  },
+  {
+    "name": "NAMROLE",
+    "code": "NRE",
+    "city": "BURU SELATAN, MALUKU",
+    "id": 929,
+    "dest": "946,948,921,655,929,613,949,944,893,947,950,662,979,983,563,923"
+  },
+  {
+    "name": "BENOA",
+    "code": "BOA",
+    "city": "DENPASAR, BALI",
+    "id": 613,
+    "dest": "694,946,948,868,921,655,835,898,929,613,684,841,949,922,944,747,681,106,891,893,950,662,979,983,924,892,696,685,563,923"
+  },
+  {
+    "name": "ENDE",
+    "code": "ENE",
+    "city": "ENDE, NUSA TENGGARA TIMUR",
+    "id": 684,
+    "dest": "694,655,613,684,747,681,893,662,696,673,685,563,773"
+  },
+  {
+    "name": "FAK",
+    "code": "FKQ",
+    "city": "FAKFAK, PAPUA BARAT",
+    "id": 976,
+    "dest": "946,948,921,835,951,976,925,431,949,977,944,928,893,947,979,983,955,971,563,942,889"
+  },
+  {
+    "name": "LARANTUKA",
+    "code": "LKA",
+    "city": "FLORES TIMUR, NUSA TENGGARA TIMUR",
+    "id": 687,
+    "dest": "803,921,687,431,681,688,893,809,863,892,683,563,251,808"
+  },
+  {
+    "name": "GORONTALO",
+    "code": "GTO",
+    "city": "GORONTALO, GORONTALO",
+    "id": 841,
+    "dest": "868,921,655,835,613,841,922,106,893,662,924"
+  },
+  {
+    "name": "BAWEAN",
+    "code": "BWN",
+    "city": "GRESIK, JAWA TIMUR",
+    "id": 590,
+    "dest": ""
+  },
+  {
+    "name": "GUNUNG SITOLI",
+    "code": "GNS",
+    "city": "GUNUNGSITOLI, SUMATERA UTARA",
+    "id": 160,
+    "dest": "336,431,191,714,159"
+  },
+  {
+    "name": "JAILOLO",
+    "code": "JIO",
+    "city": "HALMAHERA BARAT, MALUKU UTARA",
+    "id": 1466,
+    "dest": ""
+  },
+  {
+    "name": "JAILOLO",
+    "code": "JIO",
+    "city": "HALMAHERA BARAT, MALUKU UTARA",
+    "id": 777,
+    "dest": "946,921,835,951,777,431,893,494,563,942"
+  },
+  {
+    "name": "BABANG",
+    "code": "BBG",
+    "city": "HALMAHERA SELATAN, MALUKU UTARA",
+    "id": 925,
+    "dest": "946,908,921,973,835,951,976,925,974,928,893,947,972,982,955,971,563,942"
+  },
+  {
+    "name": "TOBELO",
+    "code": "TBO",
+    "city": "HALMAHERA UTARA, MALUKU UTARA",
+    "id": 941,
+    "dest": ""
+  },
+  {
+    "name": "TANJUNG PRIOK",
+    "code": "TPR",
+    "city": "JAKARTA UTARA, DKI JAKARTA",
+    "id": 431,
+    "dest": "946,322,256,921,336,973,835,951,976,687,777,431,974,949,977,266,252,269,944,975,747,681,688,893,947,972,144,982,255,246,725,714,494,683,971,563,773,251,981,942"
+  },
+  {
+    "name": "JAYAPURA",
+    "code": "DJJ",
+    "city": "JAYAPURA, PAPUA",
+    "id": 974,
+    "dest": "946,908,921,973,835,925,431,975,893,972,982,971,563,981,942"
+  },
+  {
+    "name": "LEGON BAJAK, KARIMUN JAWA",
+    "code": "LKK",
+    "city": "JEPARA, JAWA TENGAH",
+    "id": 496,
+    "dest": "747,746,494,563"
+  },
+  {
+    "name": "TUAL",
+    "code": "TUA",
+    "city": "KAB. TUAL, MALUKU",
+    "id": 949,
+    "dest": "694,946,948,921,655,835,929,613,976,431,949,977,944,681,688,893,947,950,662,979,983,683,971,563,942,889,923"
+  },
+  {
+    "name": "KAIMANA",
+    "code": "KNG",
+    "city": "KAIMANA, PAPUA BARAT",
+    "id": 977,
+    "dest": "946,948,921,835,976,431,949,977,944,893,947,979,983,971,563,889"
+  },
+  {
+    "name": "TANJUNG BALAI KARIMUN",
+    "code": "TJB",
+    "city": "KARIMUN, KEPULAUAN RIAU",
+    "id": 266,
+    "dest": "256,431,266,144"
+  },
+  {
+    "name": "KENDARI",
+    "code": "KDI",
+    "city": "KENDARI, SULAWESI TENGGARA",
+    "id": 922,
+    "dest": "868,921,655,835,613,841,922,106,893,662,924,923"
+  },
+  {
+    "name": "TAREMPA",
+    "code": "TMP",
+    "city": "KEPULAUAN ANAMBAS, KEPULAUAN RIAU",
+    "id": 252,
+    "dest": "322,431,269,252,725,255,246,714,563,251"
+  },
+  {
+    "name": "LETUNG",
+    "code": "LTG",
+    "city": "KEPULAUAN ANAMBAS, KEPULAUAN RIAU",
+    "id": 269,
+    "dest": "322,431,269,252,725,255,246,714,563,251"
+  },
+  {
+    "name": "DOBO",
+    "code": "DOB",
+    "city": "KEPULAUAN ARU, MALUKU",
+    "id": 944,
+    "dest": "694,946,948,921,655,835,929,613,976,431,949,977,944,681,688,893,947,950,662,979,983,683,971,563,942,923"
+  },
+  {
+    "name": "TAHUNA",
+    "code": "THA",
+    "city": "KEPULAUAN SANGIHE, SULAWESI UTARA",
+    "id": 836,
+    "dest": "946,835,951,841,829,836,928,845,846,844,840,942,839"
+  },
+  {
+    "name": "KAHAKITANG",
+    "code": "KKG",
+    "city": "KEPULAUAN SANGIHE, SULAWESI UTARA",
+    "id": 829,
+    "dest": "946,835,951,841,829,836,928,845,846,844,840,942,839"
+  },
+  {
+    "name": "SANANA",
+    "code": "SQN",
+    "city": "KEPULAUAN SULA, MALUKU UTARA",
+    "id": 928,
+    "dest": "946,835,951,976,925,928,947,955,942"
+  },
+  {
+    "name": "LIRUNG",
+    "code": "LRG",
+    "city": "KEPULAUAN TALAUD, SULAWESI UTARA",
+    "id": 844,
+    "dest": "946,835,951,841,829,836,928,845,846,844,840,942,839"
+  },
+  {
+    "name": "KARATUNG",
+    "code": "KTN",
+    "city": "KEPULAUAN TALAUD, SULAWESI UTARA",
+    "id": 845,
+    "dest": "946,835,951,841,829,836,928,845,846,844,840,942,839"
+  },
+  {
+    "name": "MIANGAS",
+    "code": "MGS",
+    "city": "KEPULAUAN TALAUD, SULAWESI UTARA",
+    "id": 846,
+    "dest": "946,835,951,841,829,836,928,844,845,840,942,839"
+  },
+  {
+    "name": "SERUI",
+    "code": "ZRI",
+    "city": "KEPULAUAN YAPEN, PAPUA",
+    "id": 975,
+    "dest": "946,921,973,431,974,975,893,972,971,563"
+  },
+  {
+    "name": "KENDAWANGAN",
+    "code": "KDW",
+    "city": "KETAPANG, KALIMANTAN BARAT",
+    "id": 116,
+    "dest": ""
+  },
+  {
+    "name": "PANGKALAN BUN",
+    "code": "PLB",
+    "city": "KOTAWARINGIN BARAT, KALIMANTAN TENGAH",
+    "id": 324,
+    "dest": ""
+  },
+  {
+    "name": "KUMAI",
+    "code": "KUM",
+    "city": "KOTAWARINGIN BARAT, KALIMANTAN TENGAH",
+    "id": 747,
+    "dest": "694,336,655,613,684,431,496,747,746,681,714,696,494,685,563,773"
+  },
+  {
+    "name": "SAMPIT",
+    "code": "SMQ",
+    "city": "KOTAWARINGIN TIMUR, KALIMANTAN TENGAH",
+    "id": 746,
+    "dest": "496,747,746,494,563"
+  },
+  {
+    "name": "KUPANG",
+    "code": "TQP",
+    "city": "KUPANG, NUSA TENGGARA TIMUR",
+    "id": 681,
+    "dest": "694,946,948,803,921,655,613,684,687,431,949,944,747,681,688,893,950,662,979,983,809,892,696,683,971,673,685,563,773,251,808,923"
+  },
+  {
+    "name": "LEWOLEBA",
+    "code": "LWE",
+    "city": "LEMBATA, NUSA TENGGARA TIMUR",
+    "id": 688,
+    "dest": "694,946,948,803,921,687,431,949,944,681,688,893,950,979,983,809,892,683,971,563,251,808,923"
+  },
+  {
+    "name": "LEMBAR",
+    "code": "LMR",
+    "city": "LOMBOK BARAT, NUSA TENGGARA BARAT",
+    "id": 651,
+    "dest": "655,898,651,892,685,563,773"
+  },
+  {
+    "name": "AWERANGE/BARRU",
+    "code": "AGU",
+    "city": "LUWU TIMUR, SULAWESI SELATAN",
+    "id": 891,
+    "dest": "655,898,613,891,893,662,892"
+  },
+  {
+    "name": "MAKASSAR",
+    "code": "MAK",
+    "city": "MAKASAR, SULAWESI SELATAN",
+    "id": 893,
+    "dest": "694,946,948,803,868,908,921,973,655,835,898,951,929,613,684,976,687,841,777,925,431,974,949,977,922,944,975,681,688,106,891,893,947,950,662,972,979,983,924,982,809,863,892,494,683,971,673,685,563,773,251,808,981,942,923"
+  },
+  {
+    "name": "MOA",
+    "code": "KWU",
+    "city": "MALUKU BARAT DAYA, MALUKU",
+    "id": 959,
+    "dest": "946,959,956,958,947,950,955"
+  },
+  {
+    "name": "TEPA",
+    "code": "TPA",
+    "city": "MALUKU BARAT DAYA, MALUKU",
+    "id": 958,
+    "dest": "946,959,956,958,947,950,955"
+  },
+  {
+    "name": "KISAR",
+    "code": "KXR",
+    "city": "MALUKU BARAT DAYA, MALUKU",
+    "id": 956,
+    "dest": "946,958,959,947,950,955"
+  },
+  {
+    "name": "AMAHAI",
+    "code": "AHI",
+    "city": "MALUKU TENGAH, MALUKU",
+    "id": 952,
+    "dest": ""
+  },
+  {
+    "name": "BANDA NAIRA",
+    "code": "NDA",
+    "city": "MALUKU TENGAH, MALUKU",
+    "id": 947,
+    "dest": "946,921,835,951,929,976,925,431,949,977,944,928,893,947,950,955,563,942"
+  },
+  {
+    "name": "SAUMLAKI",
+    "code": "SXK",
+    "city": "MALUKU TENGGARA BARAT, MALUKU",
+    "id": 950,
+    "dest": "694,946,948,921,655,929,613,949,944,681,688,893,947,950,662,979,983,683,971,563,923"
+  },
+  {
+    "name": "LARAT",
+    "code": "LRT",
+    "city": "MALUKU TENGGARA BARAT, MALUKU",
+    "id": 957,
+    "dest": ""
+  },
+  {
+    "name": "BELANG",
+    "code": "BEL",
+    "city": "MAMUJU, SULAWESI BARAT",
+    "id": 894,
+    "dest": ""
+  },
+  {
+    "name": "REO",
+    "code": "REO",
+    "city": "MANGGARAI, NUSA TENGGARA TIMUR",
+    "id": 672,
+    "dest": "655,684,681,893,662,673,685,773"
+  },
+  {
+    "name": "LABUAN BAJO",
+    "code": "LBO",
+    "city": "MANGGARAI BARAT, NUSA TENGGARA TIMUR",
+    "id": 662,
+    "dest": "694,946,948,868,921,655,835,898,929,613,684,841,949,922,944,681,106,891,893,950,662,979,983,924,892,673,685,563,773,923"
+  },
+  {
+    "name": "MANOKWARI",
+    "code": "MKW",
+    "city": "MANOKWARI, PAPUA BARAT",
+    "id": 972,
+    "dest": "946,908,921,973,835,925,431,974,975,893,972,982,971,563,981,942"
+  },
+  {
+    "name": "BELAWAN",
+    "code": "BLW",
+    "city": "MEDAN, SUMATERA UTARA",
+    "id": 144,
+    "dest": "256,431,266"
+  },
+  {
+    "name": "MERAUKE",
+    "code": "MKQ",
+    "city": "MERAUKE, PAPUA SELATAN",
+    "id": 979,
+    "dest": "694,946,948,921,655,835,929,613,976,949,977,944,681,688,893,950,662,983,683,971,563,942,889,923"
+  },
+  {
+    "name": "POMAKO",
+    "code": "PMK",
+    "city": "MIMIKA, PAPUA TENGAH",
+    "id": 983,
+    "dest": "694,946,948,921,655,835,929,613,976,949,977,944,681,688,893,950,662,979,983,683,971,563,942,889,923"
+  },
+  {
+    "name": "AMURANG",
+    "code": "AUG",
+    "city": "MINAHASA SELATAN, SULAWESI UTARA",
+    "id": 920,
+    "dest": ""
+  },
+  {
+    "name": "KOLONEDALE",
+    "code": "KAN",
+    "city": "MOROWALI, SULAWESI TENGAH",
+    "id": 867,
+    "dest": ""
+  },
+  {
+    "name": "RAHA",
+    "code": "RAQ",
+    "city": "MUNA, SULAWESI TENGGARA",
+    "id": 924,
+    "dest": "868,921,655,835,613,841,922,106,893,662,924,923"
+  },
+  {
+    "name": "NABIRE",
+    "code": "NBX",
+    "city": "NABIRE, PAPUA TENGAH",
+    "id": 982,
+    "dest": "908,921,973,835,925,431,974,893,972,982,971,563,981,942"
+  },
+  {
+    "name": "MARAPOKOT",
+    "code": "MOT",
+    "city": "NAGEKO, NUSA TENGGARA TIMUR",
+    "id": 663,
+    "dest": ""
+  },
+  {
+    "name": "SERASAN",
+    "code": "SRS",
+    "city": "NATUNA, KEPULAUAN RIAU",
+    "id": 255,
+    "dest": "322,431,269,252,725,255,246,714,563,251"
+  },
+  {
+    "name": "MIDAI",
+    "code": "MDA",
+    "city": "NATUNA, KEPULAUAN RIAU",
+    "id": 246,
+    "dest": "322,431,269,252,725,255,246,714,563,251"
+  },
+  {
+    "name": "NATUNA (SELAT LAMPA)",
+    "code": "NTA",
+    "city": "NATUNA, KEPULAUAN RIAU",
+    "id": 725,
+    "dest": "322,431,269,252,725,255,246,714,563,251"
+  },
+  {
+    "name": "NUNUKAN / TUNON TAKA",
+    "code": "TTK",
+    "city": "NUNUKAN, KALIMANTAN TIMUR",
+    "id": 809,
+    "dest": "803,921,687,681,688,893,809,863,892,683,808"
+  },
+  {
+    "name": "TELUK BAYUR",
+    "code": "TBY",
+    "city": "PADANG, SUMATERA BARAT",
+    "id": 191,
+    "dest": "336,160,431,191,714,159"
+  },
+  {
+    "name": "PANTOLOAN",
+    "code": "PTL",
+    "city": "PALU, SULAWESI TENGAH",
+    "id": 863,
+    "dest": "803,921,687,893,809,863,892,683,808"
+  },
+  {
+    "name": "PARE",
+    "code": "ARE",
+    "city": "PARE-PARE, SULAWESI SELATAN",
+    "id": 892,
+    "dest": "803,921,655,898,613,684,687,681,688,651,891,893,662,809,863,892,683,685,563,773,808"
+  },
+  {
+    "name": "PONTIANAK",
+    "code": "PNK",
+    "city": "PONTIANAK, KALIMANTAN BARAT",
+    "id": 714,
+    "dest": "322,336,431,252,269,747,246,255,725,714,494,563,773,251"
+  },
+  {
+    "name": "POSO",
+    "code": "PSJ",
+    "city": "POSO, SULAWESI TENGAH",
+    "id": 840,
+    "dest": "946,835,951,841,928,942,839"
+  },
+  {
+    "name": "MERANTI/DORAK",
+    "code": "MRT",
+    "city": "PULAU MERANTI, RIAU",
+    "id": 926,
+    "dest": ""
+  },
+  {
+    "name": "BAA, ROTE",
+    "code": "BRO",
+    "city": "ROTENDAO, NUSA TENGGARA TIMUR",
+    "id": 696,
+    "dest": "694,655,613,684,747,681,685,563"
+  },
+  {
+    "name": "SEBA, SABU",
+    "code": "ISA",
+    "city": "SABU RAIJUA, NUSA TENGGARA TIMUR",
+    "id": 697,
+    "dest": "694,655,681,893,662,696,773"
+  },
+  {
+    "name": "TANJUNG EMAS",
+    "code": "SRG",
+    "city": "SEMARANG, JAWA TENGAH",
+    "id": 494,
+    "dest": "946,921,336,976,431,496,949,977,944,747,746,893,947,714,494,563,773"
+  },
+  {
+    "name": "GESER",
+    "code": "GER",
+    "city": "SERAM BAGIAN TIMUR, MALUKU",
+    "id": 955,
+    "dest": "946,835,951,976,925,928,947,955,942"
+  },
+  {
+    "name": "SIBOLGA",
+    "code": "SLG",
+    "city": "SIBOLGA, SUMATERA UTARA",
+    "id": 159,
+    "dest": "336,160,431,191,714"
+  },
+  {
+    "name": "MAUMERE /LAURENTIUS SAY",
+    "code": "MOF",
+    "city": "SIKA, NUSA TENGGARA TIMUR",
+    "id": 683,
+    "dest": "694,946,948,803,921,687,431,949,944,681,688,893,950,979,983,809,863,892,683,971,563,251,808,923"
+  },
+  {
+    "name": "SORONG",
+    "code": "SOQ",
+    "city": "SORONG, PAPUA BARAT",
+    "id": 971,
+    "dest": "694,946,948,908,921,973,835,976,925,431,974,949,977,944,975,681,688,893,950,972,979,983,982,683,971,563,981,942,889,923"
+  },
+  {
+    "name": "PATIMBAN",
+    "code": "PTM",
+    "city": "SUBANG, JAWA BARAT",
+    "id": 464,
+    "dest": "431"
+  },
+  {
+    "name": "WAIKELO",
+    "code": "WIO",
+    "city": "SUMBA BARAT DAYA, NUSA TENGGARA TIMUR",
+    "id": 673,
+    "dest": "694,655,684,681,893,662,673,685,773"
+  },
+  {
+    "name": "WAINGAPU",
+    "code": "WGP",
+    "city": "SUMBA TIMUR, NUSA TENGGARA TIMUR",
+    "id": 685,
+    "dest": "694,655,898,613,684,747,681,651,893,662,892,696,673,685,563,773"
+  },
+  {
+    "name": "KETAPANG",
+    "code": "IKL",
+    "city": "SUMENEP, JAWA TIMUR",
+    "id": 715,
+    "dest": ""
+  },
+  {
+    "name": "TANJUNG PERAK",
+    "code": "SUB",
+    "city": "SURABAYA, JAWA TIMUR",
+    "id": 563,
+    "dest": "694,946,948,908,322,921,336,973,655,835,898,951,929,613,684,976,687,777,925,431,974,496,949,977,252,269,944,975,747,746,681,688,651,893,947,950,662,972,979,983,982,725,255,246,892,714,696,494,683,971,685,563,773,251,981,942,923"
+  },
+  {
+    "name": "SAMUDERA, BATULICIN",
+    "code": "SUR",
+    "city": "TANAH BUMBU, KALIMANTAN SELATAN",
+    "id": 773,
+    "dest": "694,336,655,898,684,431,747,681,651,893,662,892,714,494,673,685,563,773"
+  },
+  {
+    "name": "SEI KOLAK KIJANG",
+    "code": "SKJ",
+    "city": "TANJUNG PINANG, KEPULAUAN RIAU",
+    "id": 251,
+    "dest": "322,921,687,431,252,269,681,688,893,255,246,725,714,683,563,251"
+  },
+  {
+    "name": "TARAKAN",
+    "code": "MLD",
+    "city": "TARAKAN, KALIMANTAN TIMUR",
+    "id": 808,
+    "dest": "803,921,687,681,688,893,809,863,892,683,808"
+  },
+  {
+    "name": "WASIOR",
+    "code": "WSR",
+    "city": "TELUK WONDAMA, PAPUA BARAT",
+    "id": 981,
+    "dest": "431,974,893,972,982,971,563,981"
+  },
+  {
+    "name": "TERNATE",
+    "code": "TEI",
+    "city": "TERNATE, MALUKU UTARA",
+    "id": 942,
+    "dest": "946,948,908,921,973,835,951,976,777,925,431,974,949,944,928,893,947,972,979,983,982,494,955,971,563,981,942"
+  },
+  {
+    "name": "GITA PAYAHE",
+    "code": "PYH",
+    "city": "TIDORE KEPULAUAN, MALUKU UTARA",
+    "id": 889,
+    "dest": "948,835,976,949,977,979,983,971,889"
+  },
+  {
+    "name": "WAKAI, TOGIAN",
+    "code": "WAK",
+    "city": "TOJO UNA-UNA, SULAWESI TENGAH",
+    "id": 839,
+    "dest": "946,835,951,841,928,840,942,839"
+  },
+  {
+    "name": "TOLI",
+    "code": "TLI",
+    "city": "TOLI-TOLI, SULAWESI TENGAH",
+    "id": 861,
+    "dest": ""
+  },
+  {
+    "name": "WANCI",
+    "code": "WCI",
+    "city": "WAKATOBI, SULAWESI TENGGARA",
+    "id": 923,
+    "dest": "694,946,948,921,655,929,613,949,922,944,681,688,893,950,662,979,983,924,683,971,563,923"
+  }
+]
