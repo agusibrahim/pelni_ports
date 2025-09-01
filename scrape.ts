@@ -12,7 +12,7 @@ interface DestinationData {
 }
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: true }); // headless: false untuk melihat proses browser
+  const browser = await puppeteer.launch({ headless: true, protocolTimeout: 90000 }); // headless: false untuk melihat proses browser
   const page = await browser.newPage();
   
   // Menyesuaikan user-agent untuk menghindari deteksi bot
