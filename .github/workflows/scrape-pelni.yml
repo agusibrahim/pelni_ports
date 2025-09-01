@@ -1,4 +1,4 @@
-name: Scrape Pelni Destinations
+name: Scrape Pelni Destinations (with Bun)
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * 0'
 
 jobs:
-  run-scrapper:
+  scrape-and-commit:
     runs-on: ubuntu-latest
     
     steps:
