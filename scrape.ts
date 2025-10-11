@@ -81,6 +81,9 @@ interface DestinationData {
     return scrapedResults;
   });
 
+  // Mengurutkan hasil berdasarkan 'id' secara ascending (terkecil ke terbesar)
+  results.sort((a, b) => a.id - b.id);
+
   // Menyimpan hasil scrapping ke file JSON
   const outputFilePath = path.join(__dirname, 'pelni-destinations.json');
   fs.writeFileSync(outputFilePath, JSON.stringify(results, null, 2));
