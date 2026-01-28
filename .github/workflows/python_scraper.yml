@@ -55,7 +55,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install seleniumbase requests beautifulsoup4 lxml
+          pip install -r requirements.txt
           
       # Langkah 5: Install browser drivers
       - name: Install browser drivers
