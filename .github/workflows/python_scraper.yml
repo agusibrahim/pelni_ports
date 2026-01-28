@@ -1,0 +1,82 @@
+name: Scrape Pelni Destinations (Python)
+
+on:
+  workflow_dispatch:
+    # Mengizinkan trigger manual dari tab 'Actions' di GitHub
+  schedule:
+    # Menjalankan workflow setiap 3 hari pada pukul 00:00 UTC
+    - cron: '0 0 */3 * *'
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Langkah 1: Checkout kode repositori
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      # Langkah 2: Setup Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      # Langkah 3: Install system dependencies untuk Selenium
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            wget \
+            gnupg \
+            ca-certificates \
+            fonts-liberation \
+            libasound2 \
+            libatk-bridge2.0-0 \
+            libatk1.0-0 \
+            libatspi2.0-0 \
+            libcups2 \
+            libdbus-1-3 \
+            libdrm2 \
+            libgbm1 \
+            libgtk-3-0 \
+            libnspr4 \
+            libnss3 \
+            libwayland-client0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxkbcommon0 \
+            libxrandr2 \
+            xdg-utils
+          
+      # Langkah 4: Install Python dependencies
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install seleniumbase requests beautifulsoup4 lxml
+          
+      # Langkah 5: Install browser drivers
+      - name: Install browser drivers
+        run: |
+          sbase install chromedriver
+          sbase install chrome
+          
+      # Langkah 6: Run scraper
+      - name: Run scraper and rename output
+        run: |
+          python scraper.py
+          mv pelni-destinations.json pelni_ports.json
+        env:
+          DISPLAY: :99
+          
+      # Langkah 7: Commit dan push file hasil scraper
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat: Update Pelni port data"
+          file_pattern: "pelni_ports.json"
+          commit_user_name: Agus Ibrahim
+          commit_user_email: pymobile123@gmail.com
+          commit_author: Agus Ibrahim <pymobile123@gmail.com>
