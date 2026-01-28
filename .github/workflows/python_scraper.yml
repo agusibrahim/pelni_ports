@@ -2,46 +2,39 @@ name: Scrape Pelni Destinations (Python)
 
 on:
   workflow_dispatch:
-    # Mengizinkan trigger manual dari tab 'Actions' di GitHub
   schedule:
-    # Menjalankan workflow setiap 3 hari pada pukul 00:00 UTC
     - cron: '0 0 */3 * *'
+
+# Mencegah workflow berjalan bersamaan
+concurrency:
+  group: pelni-scraper
+  cancel-in-progress: true
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
     
     steps:
-      # Langkah 1: Checkout kode repositori
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      # Langkah 2: Setup Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
       
-      # Langkah 3: Install Python dependencies
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install seleniumbase requests beautifulsoup4 lxml urllib3
+          pip install seleniumbase requests beautifulsoup4 lxml
           
-      # Langkah 4: Install browser drivers
-      - name: Install browser drivers
-        run: |
-          sbase install chromedriver
-          sbase install chrome
+      - name: Install Chrome
+        run: sbase install chromedriver
           
-      # Langkah 5: Run scraper
-      - name: Run scraper and rename output
+      - name: Run scraper
         run: |
           python scraper.py
           mv pelni-destinations.json pelni_ports.json
           
-      # Langkah 6: Commit dan push file hasil scraper
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -50,3 +43,4 @@ jobs:
           commit_user_name: Agus Ibrahim
           commit_user_email: pymobile123@gmail.com
           commit_author: Agus Ibrahim <pymobile123@gmail.com>
+          pull_options: '--rebase --autostash'
