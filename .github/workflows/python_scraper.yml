@@ -23,55 +23,25 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       
-      # Langkah 3: Install system dependencies untuk Selenium
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            wget \
-            gnupg \
-            ca-certificates \
-            fonts-liberation \
-            libasound2 \
-            libatk-bridge2.0-0 \
-            libatk1.0-0 \
-            libatspi2.0-0 \
-            libcups2 \
-            libdbus-1-3 \
-            libdrm2 \
-            libgbm1 \
-            libgtk-3-0 \
-            libnspr4 \
-            libnss3 \
-            libwayland-client0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxkbcommon0 \
-            libxrandr2 \
-            xdg-utils
-          
-      # Langkah 4: Install Python dependencies
+      # Langkah 3: Install Python dependencies
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install seleniumbase requests beautifulsoup4 lxml urllib3
           
-      # Langkah 5: Install browser drivers
+      # Langkah 4: Install browser drivers
       - name: Install browser drivers
         run: |
           sbase install chromedriver
           sbase install chrome
           
-      # Langkah 6: Run scraper
+      # Langkah 5: Run scraper
       - name: Run scraper and rename output
         run: |
           python scraper.py
           mv pelni-destinations.json pelni_ports.json
-        env:
-          DISPLAY: :99
           
-      # Langkah 7: Commit dan push file hasil scraper
+      # Langkah 6: Commit dan push file hasil scraper
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
