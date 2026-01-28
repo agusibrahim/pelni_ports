@@ -3,9 +3,9 @@ name: Scrape Pelni Destinations
 on:
   workflow_dispatch:
     # Mengizinkan trigger manual dari tab 'Actions' di GitHub
-  schedule:
+  #schedule:
     # Menjalankan workflow setiap hari Minggu pada pukul 00:00 UTC
-    - cron: '0 0 */3 * *'
+    #- cron: '0 0 */3 * *'
 
 jobs:
   run-scrapper:
