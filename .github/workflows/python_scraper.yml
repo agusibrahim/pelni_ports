@@ -2,8 +2,8 @@ name: Scrape Pelni Destinations (Python)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 */3 * *'
+  #schedule:
+  #  - cron: '0 0 */3 * *'
 
 # Mencegah workflow berjalan bersamaan
 concurrency:
